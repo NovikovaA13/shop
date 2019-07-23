@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: adminCategory.php
+Disallow: adminProduct.php
+Disallow: adminStats.php
+Disallow: adminUsers.php
+Disallow: basket.php
+Disallow: changePassword.php
+Disallow: commandment.php
+Disallow: createAccount.php
+Disallow: login.php
+Disallow: modifyMyPersonalData.php
+Disallow: personalArea.php
+Host: a0288483.xsph.ru
+Sitemap: a0288483.xsph.ru/sitemap.php

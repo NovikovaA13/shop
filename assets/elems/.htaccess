@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /exerc
+deny from all

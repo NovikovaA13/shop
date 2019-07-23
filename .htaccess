@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !assets
+RewriteCond %{REQUEST_URI} ^index.php
+RewriteRule .*html^ index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !assets
+RewriteRule ^(.+?)&cid=(\d+)(&page=(\d+))? category.php?c=$1&id=$2$3
+RewriteCond %{REQUEST_URI} ^index.php
+RewriteRule index.php(\?page=(\d+))? index.php?$1
