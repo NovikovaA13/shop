@@ -1,1 +1,1 @@
-Код сайта продажи электронника
+PHP Code d'un site du vente des produits electroniques
